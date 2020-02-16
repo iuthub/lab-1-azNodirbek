@@ -1,0 +1,1319 @@
+21:50:07.703000 == Info:   Trying 195.158.11.212:80...
+21:50:07.703000 == Info: TCP_NODELAY set
+21:50:07.718000 == Info: Connected to www.wiut.uz (195.158.11.212) port 80 (#0)
+21:50:07.718000 => Send header, 75 bytes (0x4b)
+0000: GET / HTTP/1.1
+0010: Host: www.wiut.uz
+0023: User-Agent: curl/7.67.0
+003c: Accept: */*
+0049: 
+21:50:08.609000 == Info: Mark bundle as not supporting multiuse
+21:50:08.609000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+21:50:08.609000 <= Recv header, 30 bytes (0x1e)
+0000: Server: nginx/1.4.6 (Ubuntu)
+21:50:08.609000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 16 Feb 2020 16:50:07 GMT
+21:50:08.609000 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+21:50:08.609000 <= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+21:50:08.609000 <= Recv header, 19 bytes (0x13)
+0000: Connection: close
+21:50:08.609000 <= Recv header, 91 bytes (0x5b)
+0000: Set-Cookie: 344469e628c9a1fed325d677937f87da=r0r6ujl9t67c7t6k49r
+0040: jncmbm9; path=/; HttpOnly
+21:50:08.609000 <= Recv header, 20 bytes (0x14)
+0000: X-Logged-In: False
+21:50:08.609000 <= Recv header, 50 bytes (0x32)
+0000: X-Content-Powered-By: K2 v2.9.0 (by JoomlaWorks)
+21:50:08.609000 <= Recv header, 40 bytes (0x28)
+0000: Expires: Wed, 17 Aug 2005 00:00:00 GMT
+21:50:08.609000 <= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Sun, 16 Feb 2020 16:50:07 GMT
+21:50:08.609000 <= Recv header, 79 bytes (0x4f)
+0000: Cache-Control: no-store, no-cache, must-revalidate, post-check=0
+0040: , pre-check=0
+21:50:08.609000 <= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+21:50:08.609000 <= Recv header, 2 bytes (0x2)
+0000: 
+21:50:08.609000 <= Recv data, 683 bytes (0x2ab)
+0000: 1e68
+0006: .<!doctype html>.<html prefix="og: http://ogp.me/ns#" lang="en">
+0046: .    <head>.        <meta charset="utf-8">.        <meta name="v
+0086: iewport" content="width=device-width, initial-scale=1, shrink-to
+00c6: -fit=no">.        <link rel="canonical" href="http://www.wiut.uz
+0106: /">.        <base href="http://www.wiut.uz/" />..<meta http-equi
+0146: v="content-type" content="text/html; charset=utf-8" />..<meta na
+0186: me="generator" content="Joomla! - Open Source Content Management
+01c6: " />..<title>WIUT - Home</title>..<link href="/images/w-for-site
+0206: -01.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />.
+0246: .<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-
+0286: icons/2.4.1/css/simple-line-icons.min
+21:50:08.609000 <= Recv data, 8400 bytes (0x20d0)
+0000: .css" rel="stylesheet" type="text/css" />..<link href="/componen
+0040: ts/com_k2/css/k2.css?v=2.9.0" rel="stylesheet" type="text/css" /
+0080: >..<link href="/components/com_sppagebuilder/assets/css/font-awe
+00c0: some-5.min.css" rel="stylesheet" type="text/css" />..<link href=
+0100: "/components/com_sppagebuilder/assets/css/font-awesome-v4-shims.
+0140: css" rel="stylesheet" type="text/css" />..<link href="/component
+0180: s/com_sppagebuilder/assets/css/animate.min.css" rel="stylesheet"
+01c0:  type="text/css" />..<link href="/components/com_sppagebuilder/a
+0200: ssets/css/sppagebuilder.css" rel="stylesheet" type="text/css" />
+0240: ..<link href="/components/com_sppagebuilder/assets/css/sppagecon
+0280: tainer.css" rel="stylesheet" type="text/css" />..<link href="htt
+02c0: p://educare.wiut.uz/media/com_uniterevolution2/assets/rs-plugin/
+0300: css/settings.css" rel="stylesheet" type="text/css" />..<link hre
+0340: f="http://educare.wiut.uz/media/com_uniterevolution2/assets/rs-p
+0380: lugin/css/dynamic-captions.css" rel="stylesheet" type="text/css"
+03c0:  />..<link href="http://educare.wiut.uz/media/com_uniterevolutio
+0400: n2/assets/rs-plugin/css/static-captions.css" rel="stylesheet" ty
+0440: pe="text/css" />..<link href="/media/plg_content_osembed/css/ose
+0480: mbed.css?1b788910084a352c4fad4dd7fc2133a9" rel="stylesheet" type
+04c0: ="text/css" />..<link href="/components/com_sppagebuilder/assets
+0500: /css/magnific-popup.css" rel="stylesheet" type="text/css" />..<l
+0540: ink href="/templates/ltuniversity/css/bootstrap.min.css" rel="st
+0580: ylesheet" type="text/css" />..<link href="/templates/ltuniversit
+05c0: y/css/font-awesome.min.css" rel="stylesheet" type="text/css" />.
+0600: .<link href="/templates/ltuniversity/css/template.css" rel="styl
+0640: esheet" type="text/css" />..<link href="/templates/ltuniversity/
+0680: css/library/video-js.min.css" rel="stylesheet" type="text/css" /
+06c0: >..<link href="/templates/ltuniversity/css/video.css" rel="style
+0700: sheet" type="text/css" />..<link href="/templates/ltuniversity/c
+0740: ss/default.css" rel="stylesheet" type="text/css" />..<link href=
+0780: "/templates/ltuniversity/css/color-preset.css" rel="stylesheet" 
+07c0: type="text/css" />..<link href="/templates/ltuniversity/css/pres
+0800: ets/default.css" rel="stylesheet" type="text/css" />..<link href
+0840: ="/plugins/system/spcookieconsent/assets/css/style.css" rel="sty
+0880: lesheet" type="text/css" />..<style type="text/css">..sp-page-bu
+08c0: ilder .page-content #lt-slider{padding-top:0;padding-right:0px;p
+0900: adding-bottom:0;padding-left:0px;margin-top:-50px;margin-right:0
+0940: px;margin-bottom:0px;margin-left:0px;background-image:url(/image
+0980: s/2018/02/22/hero.jpg);background-repeat:no-repeat;background-si
+09c0: ze:cover;background-attachment:fixed;background-position:50% 50%
+0a00: ;}.sp-page-builder .page-content #lt-slider > .sppb-row-overlay 
+0a40: {background-color:rgba(0, 0, 0, 0.50)}.sp-page-builder .page-con
+0a80: tent #section-id-1570689072661{padding-top:50px;padding-right:0p
+0ac0: x;padding-left:0px;margin-right:0px;margin-bottom:0px;margin-lef
+0b00: t:0px;background-color:#14A6A1;}#column-id-1570689072657{box-sha
+0b40: dow:0 0 0 0 #fff;}#sppb-addon-wrapper-1570689072664 {margin:0 0 
+0b80: 40px 20px;}#sppb-addon-1570689072664 {color:#FFDF00;padding:5px 
+0bc0: 10px 5px;}#sppb-addon-1570689072664 a {color:#FFDF00;}#sppb-addo
+0c00: n-1570689072664 a:hover,#sppb-addon-1570689072664 a:focus,#sppb-
+0c40: addon-1570689072664 a:active {color:#14A6A1;}#sppb-addon-1570689
+0c80: 072664 .sppb-addon-title { font-family:Arial; }#sppb-addon-15706
+0cc0: 89072664 .sppb-addon-content .sppb-addon-text { font-family:"Ari
+0d00: al"; }#sppb-addon-1570689072664 .sppb-icon .sppb-icon-container 
+0d40: {box-shadow:;display:inline-block;text-align:center;padding:0 0 
+0d80: 0 0;color:#ffffff;border-width:0px;}#sppb-addon-1570689072664 .s
+0dc0: ppb-icon .sppb-icon-container > i {font-size:30px;width:30px;hei
+0e00: ght:30px;line-height:30px;}@media (min-width:768px) and (max-wid
+0e40: th:991px) {#sppb-addon-1570689072664 .sppb-media .sppb-media-bod
+0e80: y {width:auto;}}@media (max-width:767px) {#sppb-addon-1570689072
+0ec0: 664 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-15706
+0f00: 89072664{transition:.3s;}#sppb-addon-1570689072664:hover{box-sha
+0f40: dow:;}#sppb-addon-wrapper-1575008184370 {margin:0 0 40px 20px;}#
+0f80: sppb-addon-1575008184370 {padding:5px 10px 5px;}#sppb-addon-1575
+0fc0: 008184370 .sppb-btn { font-family:"Arial"; }#sppb-addon-15750081
+1000: 84370 #btn-1575008184370.sppb-btn-custom{font-weight:600;}#sppb-
+1040: addon-1575008184370 #btn-1575008184370.sppb-btn-custom { backgro
+1080: und-color:#14A6A1; color:#FFFFFF;}#sppb-addon-1575008184370 #btn
+10c0: -1575008184370.sppb-btn-custom:hover { background-color:#14A6A1;
+1100:  color:#FFFFFF;}#column-id-1570689072658{box-shadow:0 0 0 0 #fff
+1140: ;}#sppb-addon-wrapper-1571116204598 {margin:0 0 40px 0;}#sppb-ad
+1180: don-1571116204598 {padding:5px 10px 5px;}#sppb-addon-15711162045
+11c0: 98 .sppb-addon-title { font-family:Arial; }#sppb-addon-157111620
+1200: 4598 .sppb-icon .sppb-icon-container {box-shadow:;display:inline
+1240: -block;text-align:center;padding:0 0 0 0;color:#ffffff;border-wi
+1280: dth:0px;}#sppb-addon-1571116204598 .sppb-icon .sppb-icon-contain
+12c0: er > i {font-size:30px;width:30px;height:30px;line-height:30px;}
+1300: @media (min-width:768px) and (max-width:991px) {#sppb-addon-1571
+1340: 116204598 .sppb-media .sppb-media-body {width:auto;}}@media (max
+1380: -width:767px) {#sppb-addon-1571116204598 .sppb-media .sppb-media
+13c0: -body {width:auto;}}#sppb-addon-1571116204598{transition:.3s;}#s
+1400: ppb-addon-1571116204598:hover{box-shadow:;}#sppb-addon-wrapper-1
+1440: 575008184375 {margin:0 0 40px 20px;}#sppb-addon-1575008184375 {p
+1480: adding:5px 10px 5px;}#sppb-addon-1575008184375 .sppb-btn { font-
+14c0: family:"Arial"; }#sppb-addon-1575008184375 #btn-1575008184375.sp
+1500: pb-btn-custom{font-weight:600;}#sppb-addon-1575008184375 #btn-15
+1540: 75008184375.sppb-btn-custom { background-color:#14A6A1; color:#F
+1580: FFFFF;}#sppb-addon-1575008184375 #btn-1575008184375.sppb-btn-cus
+15c0: tom:hover { background-color:#14A6A1; color:#FFFFFF;}#column-id-
+1600: 1570689072659{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-15711
+1640: 16204604 {margin:0 0 40px 0;}#sppb-addon-1571116204604 {padding:
+1680: 5px 10px 5px;}#sppb-addon-1571116204604 .sppb-addon-title { font
+16c0: -family:Arial; }#sppb-addon-1571116204604 .sppb-icon .sppb-icon-
+1700: container {box-shadow:;display:inline-block;text-align:center;pa
+1740: dding:0 0 0 0;color:#ffffff;border-width:0px;}#sppb-addon-157111
+1780: 6204604 .sppb-icon .sppb-icon-container > i {font-size:30px;widt
+17c0: h:30px;height:30px;line-height:30px;}@media (min-width:768px) an
+1800: d (max-width:991px) {#sppb-addon-1571116204604 .sppb-media .sppb
+1840: -media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-
+1880: 1571116204604 .sppb-media .sppb-media-body {width:auto;}}#sppb-a
+18c0: ddon-1571116204604{transition:.3s;}#sppb-addon-1571116204604:hov
+1900: er{box-shadow:;}#sppb-addon-wrapper-1575008184382 {margin:0 0 40
+1940: px 20px;}#sppb-addon-1575008184382 {padding:5px 10px 5px;}#sppb-
+1980: addon-1575008184382 .sppb-btn { font-family:"Arial"; }#sppb-addo
+19c0: n-1575008184382 #btn-1575008184382.sppb-btn-custom{font-weight:6
+1a00: 00;}#sppb-addon-1575008184382 #btn-1575008184382.sppb-btn-custom
+1a40:  { background-color:#14A6A1; color:#FFFFFF;}#sppb-addon-15750081
+1a80: 84382 #btn-1575008184382.sppb-btn-custom:hover { background-colo
+1ac0: r:#14A6A1; color:#FFFFFF;}#column-id-1570689072660{box-shadow:0 
+1b00: 0 0 0 #fff;}#sppb-addon-wrapper-1571116204601 {margin:0 0 40px 0
+1b40: ;}#sppb-addon-1571116204601 {padding:5px 10px 5px;}#sppb-addon-1
+1b80: 571116204601 .sppb-addon-title { font-family:Arial; }#sppb-addon
+1bc0: -15
+1bc5: 2000
+1bcb: 71116204601 .sppb-icon .sppb-icon-container {box-shadow:;display
+1c0b: :inline-block;text-align:center;padding:0 0 0 0;color:#ffffff;bo
+1c4b: rder-width:0px;}#sppb-addon-1571116204601 .sppb-icon .sppb-icon-
+1c8b: container > i {font-size:30px;width:30px;height:30px;line-height
+1ccb: :30px;}@media (min-width:768px) and (max-width:991px) {#sppb-add
+1d0b: on-1571116204601 .sppb-media .sppb-media-body {width:auto;}}@med
+1d4b: ia (max-width:767px) {#sppb-addon-1571116204601 .sppb-media .spp
+1d8b: b-media-body {width:auto;}}#sppb-addon-1571116204601{transition:
+1dcb: .3s;}#sppb-addon-1571116204601:hover{box-shadow:;}#sppb-addon-wr
+1e0b: apper-1575008184385 {margin:0 0 40px 20px;}#sppb-addon-157500818
+1e4b: 4385 {padding:5px 10px 5px;}#sppb-addon-1575008184385 .sppb-btn 
+1e8b: { font-family:"Arial"; }#sppb-addon-1575008184385 #btn-157500818
+1ecb: 4385.sppb-btn-custom{font-weight:600;}#sppb-addon-1575008184385 
+1f0b: #btn-1575008184385.sppb-btn-custom { background-color:#14A6A1; c
+1f4b: olor:#FFFFFF;}#sppb-addon-1575008184385 #btn-1575008184385.sppb-
+1f8b: btn-custom:hover { background-color:#14A6A1; color:#FFFFFF;}.sp-
+1fcb: page-builder .page-content #section-id-1571892476831{padding-rig
+200b: ht:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-b
+204b: ottom:0px;margin-left:0px;}#column-id-1571892476830{box-shadow:0
+208b:  0 0 0 #fff;}#sppb-addon-wrapper-1574317405250 {margin:50px 00;}
+20cb: #sppb
+21:50:08.609000 <= Recv data, 2400 bytes (0x960)
+0000: -addon-1574317405250 {padding:20px20px ;}.sp-page-builder .page-
+0040: content #lt-feature{padding-right:0px;padding-left:0px;margin-to
+0080: p:-30px;margin-right:0px;margin-bottom:50px;margin-left:0px;}#co
+00c0: lumn-id-1541144505055{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapp
+0100: er-1541144505060 {margin:30px 0 0px 0;}#sppb-addon-1541144505060
+0140:  {padding:15px 0px 15px;}#column-id-1541144505056{box-shadow:0 0
+0180:  0 0 #fff;}#sppb-addon-wrapper-1570513367199 {margin:40px 0 0px 
+01c0: 0;}#sppb-addon-1570513367199 {padding:15px 20px 15px;}.sp-page-b
+0200: uilder .page-content #section-id-1575004908369{padding-top:30px;
+0240: padding-right:0px;padding-bottom:30px;padding-left:0px;margin-to
+0280: p:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;backgro
+02c0: und-color:#14A6A1;}#column-id-1575004908368{box-shadow:0 0 0 0 #
+0300: fff;}#sppb-addon-1575004908372 .sppb-addon-content .sppb-addon-t
+0340: ext { font-family:"Arial"; }#sppb-addon-1575004908372 .sppb-icon
+0380:  {margin-bottom:30px;}#sppb-addon-1575004908372 .sppb-icon .sppb
+03c0: -icon-container {box-shadow:;display:inline-block;text-align:cen
+0400: ter;padding:0 0 0 0;color:#ffffff;border-width:0px;}#sppb-addon-
+0440: 1575004908372 .sppb-icon .sppb-icon-container > i {font-size:50p
+0480: x;width:50px;height:50px;line-height:50px;}@media (min-width:768
+04c0: px) and (max-width:991px) {#sppb-addon-1575004908372 .sppb-media
+0500:  .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-
+0540: addon-1575004908372 .sppb-media .sppb-media-body {width:auto;}}#
+0580: sppb-addon-1575004908372{transition:.3s;}#sppb-addon-15750049083
+05c0: 72:hover{box-shadow:;}#sppb-addon-wrapper-1575006522888 {margin:
+0600: -10px -10px -10px -10px;}#sppb-addon-1575006522888 .sppb-btn { f
+0640: ont-family:"Arial"; }#sppb-addon-1575006522888 #btn-157500652288
+0680: 8.sppb-btn-custom{font-weight:700;}#sppb-addon-1575006522888 #bt
+06c0: n-1575006522888.sppb-btn-custom { background-color:#14A6A1; colo
+0700: r:#FFFFFF; padding:20px 20px 20px 20px;}#sppb-addon-157500652288
+0740: 8 #btn-1575006522888.sppb-btn-custom:hover { background-color:#1
+0780: 4A6A1; color:#FFFFFF;}.sp-page-builder .page-content #section-id
+07c0: -1571650128574{padding-right:0px;padding-bottom:50px;padding-lef
+0800: t:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-l
+0840: eft:0px;}#column-id-1571650128573{box-shadow:0 0 0 0 #fff;}#sppb
+0880: -addon-wrapper-1571650128577 {margin:50px 00;}#sppb-addon-157165
+08c0: 0128577 {padding:15px 20px 15px;}#sppb-addon-wrapper-15716501285
+0900: 84 {margin:-20px 0 -20px 0;}#sppb-addon-1571650128584 {padding:1
+0940: 5px15px;}.sp-page-builder .page-
+21:50:08.609000 <= Recv data, 1200 bytes (0x4b0)
+0000: content #lt-counter{padding-top:40px;padding-right:0px;padding-b
+0040: ottom:40px;padding-left:0px;margin-top:0px;margin-right:0px;marg
+0080: in-bottom:0px;margin-left:0px;background-image:url(/images/2019/
+00c0: 10/08/02_29.jpg);background-repeat:no-repeat;background-size:cov
+0100: er;background-attachment:inherit;background-position:50% 50%;}.s
+0140: p-page-builder .page-content #lt-counter > .sppb-row-overlay {ba
+0180: ckground-color:#0a233bcc}#column-id-1541144505091{box-shadow:0 0
+01c0:  0 0 #fff;}#sppb-addon-wrapper-1541144505098 {margin:0 0 0px 0;}
+0200: #column-id-1541144505092{box-shadow:0 0 0 0 #fff;}#sppb-addon-wr
+0240: apper-1541144505105 {margin:0 0 0px 0;}#column-id-1541144505093{
+0280: box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1541144505114 {marg
+02c0: in:0 0 0px 0;}.sp-page-builder .page-content #section-id-1572844
+0300: 633151{padding-top:50px;padding-right:0px;padding-bottom:50px;pa
+0340: dding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px
+0380: ;margin-left:0px;background-color:#F3F4EF;}#column-id-1572844633
+03c0: 150{box-shadow:0 0 0 0 #fff;}#sppb-addon-1572844633154 {padding:
+0400: 0px ;}#sppb-addon-1572844633154 .sppb-addon-content { font-famil
+0440: y:"Arial"; }.sp-page-builder .page-content #section-id-158157354
+0480: 2353{padding:50px 0px 50px 0px;margin:0px 0px 0p
+21:50:08.625000 <= Recv data, 2400 bytes (0x960)
+0000: x 0px;box-shadow:0 0 0 0 #ffffff;}#column-id-1581573542354{box-s
+0040: hadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1581573542328 {margin:0p
+0080: x 0px 10px 0px;}#sppb-addon-1581573542328 {box-shadow:0 0 0 0 #f
+00c0: fffff;}@media (min-width:768px) and (max-width:991px) {#sppb-add
+0100: on-wrapper-1581573542328 {margin-top:0px;margin-right:0px;margin
+0140: -bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-a
+0180: ddon-wrapper-1581573542328 {margin-top:0px;margin-right:0px;marg
+01c0: in-bottom:10px;margin-left:0px;}}#sppb-addon-1581573542328 .sppb
+0200: -addon-content { font-family:"Arial"; }#sppb-addon-1572844633136
+0240:  {padding:0px ;}#sppb-addon-1572844633136 .sppb-addon-title { fo
+0280: nt-family:"Arial"; }#sppb-addon-wrapper-1581573542335 {margin:0p
+02c0: x 0px 10px 0px;}#sppb-addon-1581573542335 {box-shadow:0 0 0 0 #f
+0300: fffff;}@media (min-width:768px) and (max-width:991px) {#sppb-add
+0340: on-wrapper-1581573542335 {margin-top:0px;margin-right:0px;margin
+0380: -bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-a
+03c0: ddon-wrapper-1581573542335 {margin-top:0px;margin-right:0px;marg
+0400: in-bottom:10px;margin-left:0px;}}#sppb-addon-1581573542335 .sppb
+0440: -addon-content { font-family:"Arial"; }#sppb-addon-1572844633139
+0480:  {padding:0px ;}#sppb-addon-1572844633139 .sppb-addon-title { fo
+04c0: nt-family:"Arial"; }#sppb-addon-wrapper-1581573542340 {margin:0p
+0500: x 0px 10px 0px;}#sppb-addon-1581573542340 {box-shadow:0 0 0 0 #f
+0540: fffff;}@media (min-width:768px) and (max-width:991px) {#sppb-add
+0580: on-wrapper-1581573542340 {margin-top:0px;margin-right:0px;margin
+05c0: -bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-a
+0600: ddon-wrapper-1581573542340 {margin-top:0px;margin-right:0px;marg
+0640: in-bottom:10px;margin-left:0px;}}#sppb-addon-1581573542340 .sppb
+0680: -addon-content { font-family:"Arial"; }#sppb-addon-1581573542321
+06c0:  {padding:0px ;}#sppb-addon-1581573542321 .sppb-addon-title { fo
+0700: nt-family:"Arial"; }#sppb-addon-1581573542321 .sppb-addon-title{
+0740: padding:0px 0px 0px 0px}.sp-page-builder .page-content #lt-portf
+0780: olio{padding-top:50px;padding-right:0px;padding-bottom:50px;padd
+07c0: ing-left:0px;}#column-id-1539596239342{box-shadow:0 0 0 0 #fff;}
+0800: #sppb-addon-wrapper-1541148376886 {margin:0 -30px 0;}#sppb-addon
+0840: -1541148376886 {padding:15px 20px 15px;}#sppb-addon-wrapper-1539
+0880: 596239341 {margin:0 0 -20px 0;}#sppb-addon-1539596239341 {paddin
+08c0: g:15px15px;}.sp-page-builder .page-content #section-id-158150970
+0900: 4693{padding-top:50px;padding-right:0px;padding-left:0px;margin-
+0940: top:0px;margin-right:0px;margin-
+21:50:08.625000 <= Recv data, 6000 bytes (0x1770)
+0000: bottom:0px;margin-left:0px;background-color:#FFDF00;box-shadow:0
+0040:  0 0 0 #ffffff;}#column-id-1581509704692{box-shadow:0 0 0 0 #fff
+0080: ;}#sppb-addon-wrapper-1581509704696 {margin:0px 0px 30px 0px;}#s
+00c0: ppb-addon-1581509704696 {box-shadow:0 0 0 0 #ffffff;}@media (min
+0100: -width:768px) and (max-width:991px) {#sppb-addon-wrapper-1581509
+0140: 704696 {margin-top:0px;margin-right:0px;margin-bottom:20px;margi
+0180: n-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-15815
+01c0: 09704696 {margin-top:0px;margin-right:0px;margin-bottom:10px;mar
+0200: gin-left:0px;}}@media (min-width:768px) and (max-width:991px) {#
+0240: sppb-addon-1581509704696 .sppb-addon-title {margin: ;padding: ;}
+0280: }@media (max-width:767px) {#sppb-addon-1581509704696 .sppb-addon
+02c0: -title {margin: ;padding: ;}}.sp-page-builder .page-content #sec
+0300: tion-id-1571116204612{padding-right:0px;padding-left:0px;margin-
+0340: bottom:-100px;color:#ffffff;background-color:#FFDF00;}#column-id
+0380: -1571116204
+038d: 2000
+0393: 611{box-shadow:0 0 0 0 #fff;}#sppb-addon-1572413224233 {padding:
+03d3: 50px 50px 50px;}#sppb-addon-wrapper-1571120192665 {margin: 50px 
+0413: 0;}#sppb-addon-1571120192665 {padding:0px 20px20px;}#sppb-addon-
+0453: wrapper-1572413224236 {margin: 50px 0;}#sppb-addon-1572413224236
+0493:  {padding:0px 20px20px;}.sp-page-builder .page-content #section-
+04d3: id-1572413224229{padding-right:0px;padding-left:0px;margin-top:p
+0513: x;margin-right:0px;margin-bottom:0px;margin-left:0px;background-
+0553: color:#FFDF00;}#column-id-1572413224228{box-shadow:0 0 0 0 #fff;
+0593: }#sppb-addon-wrapper-1571116204615 {margin:px ;}#sppb-addon-1571
+05d3: 116204615 {padding:50px 50px 50px;}.body{font-family: 'Arial', s
+0613: ans-serif;font-size: 18px;font-weight: 500;font-style: normal;}.
+0653: .h1{font-family: 'Arial', sans-serif;font-size: 31px;font-weight
+0693: : 600;}..h2{font-family: 'Arial', sans-serif;font-size: 24px;fon
+06d3: t-weight: 600;}..h3{font-family: 'Arial', sans-serif;font-size: 
+0713: 18.72px;font-weight: 600;}..h4{font-family: 'Arial', sans-serif;
+0753: font-size: 16px;font-weight: 600;}..h5{font-family: 'Arial', san
+0793: s-serif;font-size: 13.28px;font-weight: 600;}..h6{font-family: '
+07d3: Arial', sans-serif;font-size: 10.72px;font-weight: 600;}...sp-me
+0813: gamenu-parent > li > a, .sp-megamenu-parent > li > span, .sp-meg
+0853: amenu-parent .sp-dropdown li.sp-menu-item > a{font-family: 'Aria
+0893: l', sans-serif;font-size: 14px;font-weight: 700;}...logo-image {
+08d3: height:60px;}.#sp-0px-0px-0px-0px{ background-color:#ffffff;colo
+0913: r:#33312d;margin:10px 0px 0px -5px; }.#sp-0px-0px-0px-0px a{colo
+0953: r:#33312d;}.#sp-0px-0px-0px-0px a:hover{color:#ffdf00;}.#sp-sect
+0993: ion-2{ background-color:#14a6a1;color:#33312d;margin:0px 0px -10
+09d3: px 0px; }.#sp-section-2 a{color:#ffffff;}.#sp-section-2 a:hover{
+0a13: color:#ffdf00;}.#sp-section-3{ background-color:#14a6a1; }.#sp-m
+0a53: ain-body{ color:#030303; }.#sp-main-body a{color:#14a6a1;}.#sp-b
+0a93: ottom{ background-color:#33312d;color:#ffdf00; }.#sp-bottom a{co
+0ad3: lor:#ffffff;}.#sp-bottom a:hover{color:#14a6a1;}.#sp-footer{ bac
+0b13: kground-color:#33312d; }.#sp-cookie-consent {background-color: #
+0b53: ffc600; color: #ffffff; }#sp-cookie-consent a, #sp-cookie-consen
+0b93: t a:hover, #sp-cookie-consent a:focus, #sp-cookie-consent a:acti
+0bd3: ve {color: #000000; }#sp-cookie-consent .sp-cookie-allow {backgr
+0c13: ound-color: #000000; color: #ffffff;}#sp-cookie-consent .sp-cook
+0c53: ie-allow:hover, #sp-cookie-consent .sp-cookie-allow:active, #sp-
+0c93: cookie-consent .sp-cookie-allow:focus {color: #ffffff;}..</style
+0cd3: >..<script type="application/json" class="joomla-script-options 
+0d13: new">{"csrf.token":"15a380e790c3aebbd9a1486c600866f9","system.pa
+0d53: ths":{"root":"","base":""}}</script>..<script src="/media/jui/js
+0d93: /jquery.min.js?ebf38dcbd8669be16abbdd52e325eead" type="text/java
+0dd3: script"></script>..<script src="/media/jui/js/jquery-noconflict.
+0e13: js?ebf38dcbd8669be16abbdd52e325eead" type="text/javascript"></sc
+0e53: ript>..<script src="/media/jui/js/jquery-migrate.min.js?ebf38dcb
+0e93: d8669be16abbdd52e325eead" type="text/javascript"></script>..<scr
+0ed3: ipt src="/media/k2/assets/js/k2.frontend.js?v=2.9.0&amp;sitepath
+0f13: =/" type="text/javascript"></script>..<script src="/components/c
+0f53: om_sppagebuilder/assets/js/jquery.parallax.js" type="text/javasc
+0f93: ript"></script>..<script src="/components/com_sppagebuilder/asse
+0fd3: ts/js/sppagebuilder.js" type="text/javascript"></script>..<scrip
+1013: t src="http://educare.wiut.uz/media/com_uniterevolution2/assets/
+1053: rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascri
+1093: pt"></script>..<script src="http://educare.wiut.uz/media/com_uni
+10d3: terevolution2/assets/rs-plugin/js/jquery.themepunch.revolution.m
+1113: in.js" type="text/javascript"></script>..<script src="/media/plg
+1153: _content_osembed/js/osembed.js?1b788910084a352c4fad4dd7fc2133a9"
+1193:  type="text/javascript"></script>..<script src="/components/com_
+11d3: sppagebuilder/assets/js/jquery.magnific-popup.min.js" type="text
+1213: /javascript"></script>..<script src="/templates/ltuniversity/js/
+1253: popper.min.js" type="text/javascript"></script>..<script src="/t
+1293: emplates/ltuniversity/js/bootstrap.min.js" type="text/javascript
+12d3: "></script>..<script src="/templates/ltuniversity/js/main.js" ty
+1313: pe="text/javascript"></script>..<script src="/templates/ltuniver
+1353: sity/js/library/video.js" type="text/javascript"></script>..<scr
+1393: ipt src="/templates/ltuniversity/js/library/Youtube.min.js" type
+13d3: ="text/javascript"></script>..<script src="/templates/ltuniversi
+1413: ty/js/custom.js" type="text/javascript"></script>..<script src="
+1453: /plugins/system/spcookieconsent/assets/js/script.js" type="text/
+1493: javascript"></script>..<script src="/media/system/js/core.js?ebf
+14d3: 38dcbd8669be16abbdd52e325eead" type="text/javascript"></script>.
+1513: .<script type="text/javascript">.;(function ($) {..$.ajaxSetup({
+1553: ...headers: {....'X-CSRF-Token': Joomla.getOptions('csrf.token')
+1593: ...}..});.})(jQuery);.template="ltuniversity";..</script>..<meta
+15d3:  property="og:title" content="Home" />..<meta property="og:type"
+1613:  content="website" />..<meta property="og:url" content="http://w
+1653: ww.wiut.uz/" />..<meta property="og:site_name" content="WIUT" />
+1693: ..<meta name="twitter:card" content="summary" />..<meta name="tw
+16d3: itter:site" content="WIUT" />.    </head>.    <body class="site 
+1713: helix-ultimate com-sppagebuilder view-page layout-default task-n
+1753: one itemid-101 en-gb ltr stic
+21:50:08.625000 <= Recv data, 1200 bytes (0x4b0)
+0000: ky-header layout-fluid offcanvas-init offcanvs-position-right">.
+0040:             <div class="sp-preloader"><div></div></div>.    .   
+0080:  <div class="body-wrapper">.        <div class="body-innerwrappe
+00c0: r">.                        <section id="sp-0px-0px-0px-0px"clas
+0100: s=" d-none d-sm-none d-md-none d-lg-block"><div class="container
+0140: "><div class="container-inner"><div class="row"><div id="sp-top1
+0180: " class="col-lg-3 "><div class="sp-column "><div class="sp-modul
+01c0: e "><div class="sp-module-content">..<div class="custom"  >..<p>
+0200: <span style="font-size: 10pt;"><strong><span style="font-family:
+0240:  arial, helvetica, sans-serif;"><a class="links" href="http://ww
+0280: w.wiut.uz/quick-link-students" target="_blank" rel="noopener nor
+02c0: eferrer">STUDENTS</a>.. ..<a class="links" href="http://www.wiut
+0300: .uz/quick-link-staff" target="_blank" rel="noopener noreferrer">
+0340: STAFF</a>.. ..<a class="links" href="http://www.wiut.uz/new-alum
+0380: ni" target="_blank" rel="noopener noreferrer">ALUMNI</a>....</sp
+03c0: an></strong></span></p></div>.</div></div></div></div><div id="s
+0400: p-position-7" class="col-lg-3 "><div class="sp-column "><div cla
+0440: ss="sp-module "><div class="sp-module-content">..<div class="cus
+0480: tom"  >..<div class="row">
+049c: <div class="column" 
+21:50:08.625000 <= Recv data, 2400 bytes (0x960)
+0000: style="float: left; padding: 5px; margin-left: 10px;"><a href="h
+0040: ttp://www.wiut.uz/index.php/national-symbols"><img src="/images/
+0080: Flag_of_Uzbekistan.gif" alt="Flag of Uzbekistan" width="35" heig
+00c0: ht="42" /></a></div>
+00d6: <div class="column" style="float: left; padding: 5px;"><a href="
+0116: http://www.wiut.uz/index.php/national-symbols"><img src="/images
+0156: /gerb_big.png" alt="National Emblem of Uzbekistan" width="20" he
+0196: ight="20" /></a></div>
+01ae: <div class="column" style="float: left; padding: 5px;"><a href="
+01ee: http://www.wiut.uz/index.php/national-symbols"><img src="/images
+022e: /music-note-1275650_960_720.png" alt="National Emblem of Uzbekis
+026e: tan" width="20" height="20" /></a>.. .. .. .. ..</div>
+02a6: </div></div>.</div></div></div></div><div id="sp-search" class="
+02e6: col-lg-2 "><div class="sp-column "><div class="sp-module "><div 
+0326: class="sp-module-content"><div class="search">..<form action="/"
+0366:  method="post">...<input name="searchword" id="mod-search-search
+03a6: word115" class="form-control" type="search" placeholder="Search 
+03e6: ...">..<input type="hidden" name="task" value="search">...<input
+0426:  type="hidden" name="option" value="com_search">...<input type="
+0466: hidden" name="Itemid" value="101">..</form>.</div>.</div></div><
+04a6: /div></div><div id="sp-top-2-button" class="col-lg-4 "><div clas
+04e6: s="sp-column "><div class="sp-module "><div class="sp-module-con
+0526: tent">..<div class="custom"  >..<p><span style="font-size: 10pt;
+0566: "><strong><a href="https://vrr.wiut.uz/uz" target="_blank" rel="
+05a6: noopener noreferrer">VIRTUAL RECEPTION</a>.. ..</strong></span> 
+05e6: <span style="font-size: 10pt;"><strong><a href="http://www.wiut.
+0626: uz/index.php/for-suppliers">FOR SUPPLIERS</a>.. ..</strong></spa
+0666: n></p></div>.</div></div></div></div></div></div></div></section
+06a6: ><section id="sp-section-2"class="header"><div class="row"><div 
+06e6: id="sp-logo" class="col-12 col-lg-3 "><div class="sp-column "><d
+0726: iv class="logo"><a href="/"><img class="logo-image" src="/images
+0766: /oie_oie_over
+0775: 2000
+077b: lay_6.gif" alt="WIUT"></a></div></div></div><div id="sp-menu" cl
+07bb: ass="col-7 col-sm-7 col-lg-8 "><div class="sp-column "><nav clas
+07fb: s="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggl
+083b: er" aria-label="Navigation" class="offcanvas-toggler-right" href
+087b: ="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"
+08bb: ></i></a><ul class="sp-megamenu-parent menu-animation-fade-up d-
+08fb: none d-lg-block"><li class="sp-menu-item current-item active"><a
+093b:   href="/" >Home</a></li><li class="s
+21:50:08.625000 <= Recv data, 1200 bytes (0x4b0)
+0000: p-menu-item"><a  href="/study" >Study</a></li><li class="sp-menu
+0040: -item"><a  href="/admission-wiut" >Apply</a></li><li class="sp-m
+0080: enu-item"><a  href="/international" >International</a></li><li c
+00c0: lass="sp-menu-item"><a  href="/research" >Research</a></li><li c
+0100: lass="sp-menu-item"><a  href="/news" >News</a></li><li class="sp
+0140: -menu-item"><a  href="/events" >Events</a></li><li class="sp-men
+0180: u-item"><a  href="/parents" >Parents</a></li><li class="sp-menu-
+01c0: item"><a  href="/careers" >Careers</a></li><li class="sp-menu-it
+0200: em"><a  href="/about-us" >About Us</a></li></ul></nav></div></di
+0240: v><div id="sp-feature" class="col-lg-1 "><div class="sp-column "
+0280: ><div class="sp-module "><div class="sp-module-content">..<div c
+02c0: lass="custom"  >..<p>.. .. .. .. .. ..</p></div>.</div></div><di
+0300: v class="sp-module "><div class="sp-module-content">..<div class
+0340: ="custom"  >..<p>.. .. ....</p></div>.</div></div></div></div></
+0380: div></section><section id="sp-section-3"><div class="row"><div i
+03c0: d="sp-title" class="col-lg-12 d-none d-sm-block"><div class="sp-
+0400: column "></div></div></div></section><section id="sp-main-body">
+0440: <div class="row"><main id="sp-component" class="col-lg-12 " role
+0480: ="main"><div class="sp-column "><div id="system-
+21:50:08.625000 <= Recv data, 6000 bytes (0x1770)
+0000: message-container">..</div>..<div id="sp-page-builder" class="sp
+0040: -page-builder  page-1">.....<div class="page-content">.....<sect
+0080: ion id="lt-slider" class="sppb-section lt-slider sppb-hidden-sm 
+00c0: sppb-hidden-xs" ><div class="sppb-row-overlay"></div><div class=
+0100: "sppb-row-container"><div class="sppb-row"><div class="sppb-col-
+0140: sm-12" id="column-wrap-id-1511613809"><div id="column-id-1511613
+0180: 809" class="sppb-column " ><div class="sppb-column-addons"><div 
+01c0: id="sppb-addon-wrapper-1539251227897" class="sppb-addon-wrapper"
+0200: ><div id="sppb-addon-1539251227897" class="clearfix "     ><div 
+0240: class="sppb-addon sppb-addon-module "><div class="sppb-addon-con
+0280: tent"><!-- START REVOLUTION SLIDER 4.8.1 fullwidth mode -->..<di
+02c0: v id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidt
+0300: hbanner-container" style="margin:0px auto;background-color:#071E
+0340: 33;padding:0px;margin-top:0px;margin-bottom:0px;max-height:700px
+0380: ;">..<div id="rev_slider_1_1" class="rev_slider fullwidthabanner
+03c0: " style="display:none;max-height:700px;height:700px;">.<ul>.<!--
+0400:  SLIDE  1-->..<li data-transition="random" data-slotamount="7" d
+0440: ata-masterspeed="300"  data-saveperformance="off" >...<!-- MAIN 
+0480: IMAGE -->...<img src="http://educare.wiut.uz/images/slider.jpg" 
+04c0:  alt="slider"  data-bgposition="center top" data-bgfit="cover" d
+0500: ata-bgrepeat="no-repeat">...<!-- LAYERS -->....<!-- LAYER NR. 1 
+0540: -->...<div class="tp-caption excerpt tp-fade tp-resizeme"....dat
+0580: a-x="382"....data-y="319" ....data-speed="300"....data-start="15
+05c0: 0"....data-easing="Power3.easeInOut"....data-splitin="none"....d
+0600: ata-splitout="none"....data-elementdelay="0.1"....data-endelemen
+0640: tdelay="0.1".... data-endspeed="300".....style="z-index: 5; max-
+0680: width: auto; max-height: auto; white-space: nowrap;"><a href='ht
+06c0: tp://www.wiut.uz/admission-wiut'>APPLY</a>...</div>..</li>..<!--
+0700:  SLIDE  2-->..<li data-transition="random" data-slotamount="7" d
+0740: ata-masterspeed="300"  data-saveperformance="off" >...<!-- MAIN 
+0780: IMAGE -->...<img src="http://educare.wiut.uz/images/Pen.jpg"  al
+07c0: t="Pen"  data-bgposition="center top" data-bgfit="cover" data-bg
+0800: repeat="no-repeat">...<!-- LAYERS -->....<!-- LAYER NR. 1 -->...
+0840: <div class="tp-caption large_bold_white tp-fade tp-resizeme"....
+0880: data-x="1583"....data-y="566" ....data-speed="300"....data-start
+08c0: ="200"....data-easing="Power3.easeInOut"....data-splitin="none".
+0900: ...data-splitout="none"....data-elementdelay="0.1"....data-endel
+0940: ementdelay="0.1".... data-endspeed="300".....style="z-index: 5; 
+0980: max-width: auto; max-height: auto; white-space: nowrap;"><a href
+09c0: ='http://www.wiut.uz/news/item/78-information-session-for-applic
+0a00: ants-parents' class='tp-button blue small'>Register</a>...</div>
+0a40: ..</li>..<!-- SLIDE  3-->..<li data-transition="random" data-slo
+0a80: tamount="7" data-masterspeed="300" data-link="http://www.wiut.uz
+0ac0: /events/item/43-call-for-papers"   data-saveperformance="off" >.
+0b00: ..<!-- MAIN IMAGE -->...<img src="http://educare.wiut.uz/images/
+0b40: call_for_papers.jpg"  alt="call_for_papers"  data-bgposition="ce
+0b80: nter top" data-bgfit="100% 100%" data-bgrepeat="no-repeat">...<!
+0bc0: -- LAYERS -->..</li>.</ul>.<div class="tp-bannertimer tp-bottom"
+0c00:  style="display:none; visibility: hidden !important;"></div>.</d
+0c40: iv>....
+0c49: ...<script type="text/javascript">
+0c6d: 
+0c6f: .....
+0c76: ..../******************************************
+0ca7: .....-.PREPARE PLACEHOLDER FOR SLIDER.-
+0cd0: ....******************************************/
+0d01: ........
+0d0b: .... 
+0d12: ......var setREVStartSize = function() {
+0d3c: .......var.tpopt = new Object(); 
+0d5f: ........tpopt.startwidth = 1903;
+0d81: ........tpopt.startheight = 700;
+0da3: ........tpopt.container = jQuery('#rev_slider_1_1');
+0dd9: ........tpopt.fullScreen = "off";
+0dfc: ........tpopt.forceFullWidth="on";
+0e20: 
+0e22: .......tpopt.container.closest(".rev_slider_wrapper").css({heigh
+0e62: t:tpopt.container.height()});tpopt.width=parseInt(tpopt.containe
+0ea2: r.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);t
+0ee2: popt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt
+0f22: .startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<
+0f62: tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.b
+0fa2: w;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1
+0fe2: ;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.wid
+1022: th/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.a
+1062: utoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScre
+10a2: en=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.
+10e2: container.parent().width();var coh=jQuery(window).height();if(tp
+1122: opt.fullScreenOffsetContainer!=undefined){try{var offcontainers=
+1162: tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontai
+11a2: ners,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tp
+11e2: opt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e)
+1222: {}}tpopt.container.parent().height(coh);tpopt.container.height(c
+1262: oh);tpopt.container.closest(".rev_slider_wrapper").height(coh);t
+12a2: popt.container.closest(".forcefullwidth_wrapper_tp_banner").find
+12e2: (".tp-fullwidth-forcer").height(coh);tpopt.container.css({height
+1322: :"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.he
+1362: ight);tpopt.container.closest(".rev_slider_wrapper").height(tpop
+13a2: t.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_ba
+13e2: nner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+141e: ......};
+1428: ......
+1430: ....../* CALL PLACEHOLDER */
+144e: ......setREVStartSize();
+1468: ........
+1472: ....
+1478: ....var tpj=jQuery;....
+1491: ....tpj.noConflict();....
+14ac: ....var revapi1;
+14be: ....
+14c4: ....
+14ca: ....
+14d0: ....tpj(document).ready(function() {
+14f6: ....
+14fc: .....
+1503: ........
+150d: ....if(tpj('#rev_slider_1_1').revolution == undefined){
+1546: .....revslider_showDoubleJqueryError('#rev_slider_1_1');
+1580: ....}else{
+158c: ....   revapi1 = tpj('#rev_slider_1_1').show().revolution(
+15c8: .....{
+15d0: ...........
+15dd: ......dottedOverlay:"none",
+15fa: ......delay:3000,
+160d: ......startwidth:1903,
+1625: ......startheight:700,
+163d: ......hideThumbs:200,
+1654: ......
+165c: ......thumbWidth:100,
+1673: ......thumbHeight:50,
+168a: ......thumbAmount:3,
+16a0: .............
+16af: ......simplifyAll:"off",......
+16cf: ......navigationType:"none",
+16ed: ......navigationArrows:"solo",
+170d: ......navigationStyle:"round",......
+1733: ......touchenabled:"on",
+174d: ......onHoverStop:"on",......
+176c: ....
+21:50:08.625000 <= Recv data, 2400 bytes (0x960)
+0000: ..nextSlideOnWindowFocus:"off",
+0021: ......
+0029: ......swipe_threshold: 75,
+0045: ......swipe_min_touches: 1,
+0062: ......drag_block_vertical: false,
+0085: ..................
+0099: ..................
+00ad: ......keyboardNavigation:"off",
+00ce: ......
+00d6: ......navigationHAlign:"center",
+00f8: ......navigationVAlign:"bottom",
+011a: ......navigationHOffset:0,
+0136: ......navigationVOffset:20,
+0153: 
+0155: ......soloArrowLeftHalign:"left",
+0178: ......soloArrowLeftValign:"center",
+019d: ......soloArrowLeftHOffset:20,
+01bd: ......soloArrowLeftVOffset:0,
+01dc: 
+01de: ......soloArrowRightHalign:"r
+01fd: 1000
+0203: ight",
+020b: ......soloArrowRightValign:"center",
+0231: ......soloArrowRightHOffset:20,
+0252: ......soloArrowRightVOffset:0,
+0272: ........
+027c: ......shadow:3,
+028d: ......fullWidth:"on",
+02a4: ......fullScreen:"off",
+02bd: 
+02bf: ............spinner:"spinner0",
+02e0: ..................
+02f4: ......stopLoop:"off",
+030b: ......stopAfterLoops:-1,
+0325: ......stopAtSlide:-1,
+033c: 
+033e: ......shuffle:"off",
+0354: ......
+035c: ......autoHeight:"off",......
+037b: ......forceFullWidth:"on",......
+039d: ............
+03ab: ............
+03b9: ......hideTimerBar:"on",......
+03d9: ......hideThumbsOnMobile:"off",
+03fa: ......hideNavDelayOnMobile:1500,
+041c: ......hideBulletsOnMobile:"off",
+043e: ......hideArrowsOnMobile:"off",
+045f: ......hideThumbsUnderResolution:0,
+0483: ......
+048b: ............hideSliderAtLimit:0,
+04ad: ......hideCaptionAtLimit:0,
+04ca: ......hideAllCaptionAtLilmit:0,
+04eb: ......startWithSlide:0,
+0504: ......isJoomla: true
+051a: .....});
+0524: .....
+052b: .....
+0532: .....
+0539: .........}.....
+054a: ....});./*ready*/
+055d: .........
+0568: ...</script>
+0576: ...</div>.<!-- END REVOLUTION SLIDER -->.</div></div></div></div
+05b6: ></div></div></div></div></div></section><section id="section-id
+05f6: -1570689072661" class="sppb-section" ><div class="sppb-row-overl
+0636: ay"></div><div class="sppb-row-container"><div class="sppb-row s
+0676: ppb-no-gutter"><div class="sppb-col-md-3" id="column-wrap-id-157
+06b6: 0689072657"><div id="column-id-1570689072657" class="sppb-column
+06f6: " ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1
+0736: 570689072664" class="sppb-addon-wrapper"><div id="sppb-addon-157
+0776: 0689072664" class=" sppb-wow zoomIn clearfix "  data-sppb-wow-du
+07b6: ration="2000ms"     ><div class="sppb-addon sppb-addon-feature  
+07f6: "><div class="sppb-addon-content sppb-text-center"><div class="s
+0836: ppb-icon"><a href="http://wiut.uz/index.php/pre-foundation"><spa
+0876: n class="sppb-icon-container" aria-label=""><i class="fa fa-penc
+08b6: il" aria-hidden="true"></i></span></a></div><div class="sppb-med
+08f6: ia-content"><div class="sppb-addon-text"></div></div></div></div
+0936: ></div></div><div id="sppb-addon-wrapper-1
+21:50:08.625000 <= Recv data, 14400 bytes (0x3840)
+0000: 575008184370" class="sppb-addon-wrapper"><div id="sppb-addon-157
+0040: 5008184370" class="clearfix "     ><div class="sppb-text-center"
+0080: ><a href="http://www.wiut.uz/pre-foundation" id="btn-15750081843
+00c0: 70" class="sppb-btn  sppb-btn-custom sppb-btn-lg sppb-btn-rounde
+0100: d sppb-btn-flat">Pre-Foundation</a></div></div></div></div></div
+0140: ></div><div class="sppb-col-md-3" id="column-wrap-id-15706890726
+0180: 58"><div id="column-id-1570689072658" class="sppb-column" ><div 
+01c0: class="sppb-column-addons"><div id="sppb-addon-wrapper-157111620
+0200: 4598" class="sppb-addon-wrapper"><div id="sppb-addon-15711162045
+0240: 98" class=" sppb-wow zoomIn clearfix "  data-sppb-wow-duration="
+0280: 2000ms"     ><div class="sppb-addon sppb-addon-feature  "><div c
+02c0: lass="sppb-addon-content sppb-text-center"><div class="sppb-icon
+0300: "><a href="http://wiut.uz/index.php/foundation"><span class="spp
+0340: b-icon-container" aria-label=""><i class="fa fa-book" aria-hidde
+0380: n="true"></i></span></a></div><div class="sppb-media-content"><d
+03c0: iv class="sppb-addon-text"></div></div></div></div></div></div><
+0400: div id="sppb-addon-wrapper-1575008184375" class="sppb-addon-wrap
+0440: per"><div id="sppb-addon-1575008184375" class="clearfix "     ><
+0480: div class="sppb-text-center"><a href="http://www.wiut.uz/foundat
+04c0: ion" id="btn-1575008184375" class="sppb-btn  sppb-btn-custom spp
+0500: b-btn-lg sppb-btn-rounded sppb-btn-flat">Foundation</a></div></d
+0540: iv></div></div></div></div><div class="sppb-col-md-3" id="column
+0580: -wrap-id-1570689072659"><div id="column-id-1570689072659" class=
+05c0: "sppb-column" ><div class="sppb-column-addons"><div id="sppb-add
+0600: on-wrapper-1571116204604" class="sppb-addon-wrapper"><div id="sp
+0640: pb-addon-1571116204604" class=" sppb-wow zoomIn clearfix "  data
+0680: -sppb-wow-duration="2000ms"     ><div class="sppb-addon sppb-add
+06c0: on-feature  "><div class="sppb-addon-content sppb-text-center"><
+0700: div class="sppb-icon"><a href="http://wiut.uz/index.php/undergra
+0740: duate"><span class="sppb-icon-container" aria-label=""><i class=
+0780: "fa fa-graduation-cap" aria-hidden="true"></i></span></a></div><
+07c0: div class="sppb-media-content"><div class="sppb-addon-text"></di
+0800: v></div></div></div></div></div><div id="sppb-addon-wrapper-1575
+0840: 008184382" class="sppb-addon-wrapper"><div id="sppb-addon-157500
+0880: 8184382" class="clearfix "     ><di
+08a5: 2000
+08ab: v class="sppb-text-center"><a href="http://www.wiut.uz/undergrad
+08eb: uate" id="btn-1575008184382" class="sppb-btn  sppb-btn-custom sp
+092b: pb-btn-lg sppb-btn-rounded sppb-btn-flat">Undergraduate</a></div
+096b: ></div></div></div></div></div><div class="sppb-col-md-3" id="co
+09ab: lumn-wrap-id-1570689072660"><div id="column-id-1570689072660" cl
+09eb: ass="sppb-column" ><div class="sppb-column-addons"><div id="sppb
+0a2b: -addon-wrapper-1571116204601" class="sppb-addon-wrapper"><div id
+0a6b: ="sppb-addon-1571116204601" class=" sppb-wow zoomIn clearfix "  
+0aab: data-sppb-wow-duration="2000ms"     ><div class="sppb-addon sppb
+0aeb: -addon-feature  "><div class="sppb-addon-content sppb-text-cente
+0b2b: r"><div class="sppb-icon"><a href="http://wiut.uz/index.php/post
+0b6b: graduate"><span class="sppb-icon-container" aria-label=""><i cla
+0bab: ss="fa fa-briefcase" aria-hidden="true"></i></span></a></div><di
+0beb: v class="sppb-media-content"><div class="sppb-addon-text"></div>
+0c2b: </div></div></div></div></div><div id="sppb-addon-wrapper-157500
+0c6b: 8184385" class="sppb-addon-wrapper"><div id="sppb-addon-15750081
+0cab: 84385" class="clearfix "     ><div class="sppb-text-center"><a h
+0ceb: ref="http://www.wiut.uz/postgraduate" id="btn-1575008184385" cla
+0d2b: ss="sppb-btn  sppb-btn-custom sppb-btn-lg sppb-btn-rounded sppb-
+0d6b: btn-flat">Postgraduate</a></div></div></div></div></div></div></
+0dab: div></div></section><section id="section-id-1571892476831" class
+0deb: ="sppb-section" ><div class="sppb-row-overlay"></div><div class=
+0e2b: "sppb-row-container"><div class="sppb-row"><div class="sppb-col-
+0e6b: md-12" id="column-wrap-id-1571892476830"><div id="column-id-1571
+0eab: 892476830" class="sppb-column" ><div class="sppb-column-addons">
+0eeb: <div id="sppb-addon-wrapper-1574317405250" class="sppb-addon-wra
+0f2b: pper"><div id="sppb-addon-1574317405250" class="clearfix "     >
+0f6b: <div class="sppb-addon sppb-addon-text-block sppb-text-center ">
+0fab: <div class="sppb-addon-content"><span style="font-size: 32pt; fo
+0feb: nt-family: arial; font-weight: bold;"><a href="http://www.wiut.u
+102b: z/index.php/our-university">WHO WE ARE</a></span></div></div></d
+106b: iv></div></div></div></div></div></div></section><section id="lt
+10ab: -feature" class="sppb-section lt-feature" ><div class="sppb-row-
+10eb: overlay"></div><div class="sppb-row-container"><div class="sppb-
+112b: row"><div class="sppb-col-md-6" id="column-wrap-id-1541144505055
+116b: "><div id="column-id-1541144505055" class="sppb-column sppb-wow 
+11ab: fadeInRight"  data-sppb-wow-duration="300ms"><div class="sppb-co
+11eb: lumn-addons"><div id="sppb-addon-wrapper-1541144505060" class="s
+122b: ppb-addon-wrapper"><div id="sppb-addon-1541144505060" class="cle
+126b: arfix "     ><div class="sppb-addon sppb-addon-text-block sppb-t
+12ab: ext-left lt-title"><div class="sppb-addon-content"><p style="tex
+12eb: t-align: justify; color: #33312d;">Westminster International Uni
+132b: versity in Tashkent (WIUT) is the first international university
+136b:  located in the heart of Central Asia to offer a Western-style e
+13ab: ducation with UK qualifications. WIUT offers a wide range of pro
+13eb: grams, academic and research activities, as well as social event
+142b: s. Independent learning is an essential part of the UK education
+146b:  system, and WIUT is no exception. WIUT students can often be fo
+14ab: und in the Learning Resource Centre (LRC), computer rooms and in
+14eb: novation labs, working on projects and discussing course content
+152b:  with their peers. Other times, students may be found making the
+156b:  most of the University&rsquo;s exceptional sports facilities or
+15ab:  engaging in the many social and cultural events organized by th
+15eb: e Students&rsquo; Union.&nbsp;</p></div></div></div></div></div>
+162b: </div></div><div class="sppb-col-md-6" id="column-wrap-id-154114
+166b: 4505056"><div id="column-id-1541144505056" class="sppb-column sp
+16ab: pb-wow fadeInLeft"  data-sppb-wow-duration="500ms"><div class="s
+16eb: ppb-column-addons"><div id="sppb-addon-wrapper-1570513367199" cl
+172b: ass="sppb-addon-wrapper"><div id="sppb-addon-1570513367199" clas
+176b: s="clearfix "     ><div class="sppb-addon sppb-addon-video "><di
+17ab: v class="sppb-video-block sppb-embed-responsive sppb-embed-respo
+17eb: nsive-16by9"><iframe class="sppb-embed-responsive-item" src="//w
+182b: ww.youtube.com/embed/xEYawMwUgR8?iv_load_policy=3&rel=1" webkitA
+186b: llowFullScreen mozallowfullscreen allowFullScreen></iframe></div
+18ab: ></div></div></div></div></div></div></div></div></section><sect
+18eb: ion id="section-id-1575004908369" class="sppb-section" ><div cla
+192b: ss="sppb-row-overlay"></div><div class="sppb-row-container"><div
+196b:  class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id
+19ab: -1575004908368"><div id="column-id-1575004908368" class="sppb-co
+19eb: lumn" ><div class="sppb-column-addons"><div id="sppb-addon-wrapp
+1a2b: er-1575004908372" class="sppb-addon-wrapper"><div id="sppb-addon
+1a6b: -1575004908372" class="clearfix "     ><div class="sppb-addon sp
+1aab: pb-addon-feature  "><div class="sppb-addon-content sppb-text-cen
+1aeb: ter"><div class="sppb-icon"><a href="http://profcourses.wiut.uz/
+1b2b: ru/"><span class="sppb-icon-container" aria-label=""><i class="f
+1b6b: a fa-line-chart" aria-hidden="true"></i></span></a></div><div cl
+1bab: ass="sppb-media-content"><div class="sppb-addon-text"></div></di
+1beb: v></div></div></div></div><div id="sppb-addon-wrapper-1575006522
+1c2b: 888" class="sppb-addon-wrapper"><div id="sppb-addon-157500652288
+1c6b: 8" class="clearfix "     ><div class="sppb-text-center"><a rel="
+1cab: noopener noreferrer" target="_blank" href="http://profcourses.wi
+1ceb: ut.uz/ru/" id="btn-1575006522888" class="sppb-btn  sppb-btn-cust
+1d2b: om sppb-btn-xlg sppb-btn-rounded sppb-btn-flat">Executive Course
+1d6b: s</a></div></div></div></div></div></div></div></div></section><
+1dab: section id="section-id-1571650128574" class="sppb-section" ><div
+1deb:  class="sppb-row-overlay"></div><div class="sppb-row-container">
+1e2b: <div class="sppb-row"><div class="sppb-col-md-12" id="column-wra
+1e6b: p-id-1571650128573"><div id="column-id-1571650128573" class="spp
+1eab: b-column" ><div class="sppb-column-addons"><div id="sppb-addon-w
+1eeb: rapper-1571650128577" class="sppb-addon-wrapper"><div id="sppb-a
+1f2b: ddon-1571650128577" class="clearfix "     ><div class="sppb-addo
+1f6b: n sppb-addon-text-block sppb-text-center lt-title"><div class="s
+1fab: ppb-addon-content"><p style="font-size: 32pt; font-family: arial
+1feb: ; font-weight: bold; color: #14a6a1;"><a href="http://www.wiut.u
+202b: z/index.php/events">EVENTS</a></p></div></div></div></div><div i
+206b: d="sppb-addon-wrapper-1571650128584" class="sppb-addon-wrapper">
+20ab: <div id="sppb-addon-1571650128584" class="clearfix "     ><div c
+20eb: lass="sppb-addon sppb-addon-module "><div class="sppb-addon-cont
+212b: ent">.<div id="k2ModuleBox138" class="k2ItemsBlock">.....  <ul>.
+216b:         <li class="even">..      <!-- Plugins: BeforeDisplay -->
+21ab: .      .      <!-- K2 Plugins: K2BeforeDisplay -->.      .      
+21eb: .            <a class="moduleItemTitle" href="/events/item/89-in
+222b: formation-session-for-parents">Information session for parents</
+226b: a>.      .      .      <!-- Plugins: AfterDisplayTitle -->.     
+22ab:  .      <!-- K2 Plugins: K2AfterDisplayTitle -->.      .      <!
+22eb: -- Plugins: BeforeDisplayContent -->.      .      <!-- K2 Plugin
+232b: s: K2BeforeDisplayContent -->.      .            <div class="mod
+236b: uleItemIntrotext">..      .      <a class="moduleItemImage" href
+23ab: ="/events/item/89-information-session-for-parents" title="Contin
+23eb: ue reading &quot;Information session for parents&quot;">..      
+242b: .<img src="/media/k2/items/cache/780149ddfa09fbd86eb140fe6810d77
+246b: 0_S.jpg" alt="Information session for parents" />..      </a>.. 
+24ab:      .      .      </div>.      .      .      <div class="clr"><
+24eb: /div>..      .      <div class="clr"></div>..      <!-- Plugins:
+252b:  AfterDisplayContent -->.      .      <!-- K2 Plugins: K2AfterDi
+256b: splayContent -->.      .      .      .      .      .............
+25ab:       <!-- Plugins: AfterDisplay -->.      .      <!-- K2 Plugin
+25eb: s: K2AfterDisplay -->.      .      <div class="clr"></div>.    <
+262b: /li>.        <li class="odd">..      <!-- Plugins: BeforeDisplay
+266b:  -->.      .      <!-- K2 Plugins: K2BeforeDisplay -->.      .  
+26ab:     .            <a class="moduleItemTitle" href="/events/item/8
+26eb: 4-pitch-day-with-tuz-ventures">Pitch day with TUZ Ventures</a>. 
+272b:      .      .      <!-- Plugins: AfterDisplayTitle -->.      .  
+276b:     <!-- K2 Plugins: K2AfterDisplayTitle -->.      .      <!-- P
+27ab: lugins: BeforeDisplayContent -->.      .      <!-- K2 Plugins: K
+27eb: 2BeforeDisplayContent -->.      .            <div class="moduleI
+282b: temIntrotext">..      .      <a class="moduleItemImage" href="/e
+286b: vents/item/84-pitch-day-with-tuz-ventures" title="Continue readi
+28ad: 2000
+28b3: ng &quot;Pitch day with TUZ Ventures&quot;">..      .<img src="/
+28f3: media/k2/items/cache/00e7056ec788d5b42162a6c13dbba43c_S.jpg" alt
+2933: ="Pitch day with TUZ Ventures" />..      </a>..      .      .   
+2973:    </div>.      .      .      <div class="clr"></div>..      .  
+29b3:     <div class="clr"></div>..      <!-- Plugins: AfterDisplayCon
+29f3: tent -->.      .      <!-- K2 Plugins: K2AfterDisplayContent -->
+2a33: .      .      .      .      .      .............      <!-- Plugi
+2a73: ns: AfterDisplay -->.      .      <!-- K2 Plugins: K2AfterDispla
+2ab3: y -->.      .      <div class="clr"></div>.    </li>.        <li
+2af3:  class="even lastItem">..      <!-- Plugins: BeforeDisplay -->. 
+2b33:      .      <!-- K2 Plugins: K2BeforeDisplay -->.      .      . 
+2b73:            <a class="moduleItemTitle" href="/events/item/43-call
+2bb3: -for-papers">Call for papers</a>.      .      .      <!-- Plugin
+2bf3: s: AfterDisplayTitle -->.      .      <!-- K2 Plugins: K2AfterDi
+2c33: splayTitle -->.      .      <!-- Plugins: BeforeDisplayContent -
+2c73: ->.      .      <!-- K2 Plugins: K2BeforeDisplayContent -->.    
+2cb3:   .            <div class="moduleItemIntrotext">..      .      <
+2cf3: a class="moduleItemImage" href="/events/item/43-call-for-papers"
+2d33:  title="Continue reading &quot;Call for papers&quot;">..      .<
+2d73: img src="/media/k2/items/cache/8b6e33345ac8d5ffd9cf0d107a7d9e9d_
+2db3: S.jpg" alt="Call for papers" />..      </a>..      .      .     
+2df3:  </div>.      .      .      <div class="clr"></div>..      .    
+2e33:   <div class="clr"></div>..      <!-- Plugins: AfterDisplayConte
+2e73: nt -->.      .      <!-- K2 Plugins: K2AfterDisplayContent -->. 
+2eb3:      .      .      .      .      .............      <!-- Plugins
+2ef3: : AfterDisplay -->.      .      <!-- K2 Plugins: K2AfterDisplay 
+2f33: -->.      .      <div class="clr"></div>.    </li>.        <li c
+2f73: lass="clearList"></li>.  </ul>.  .....</div>.</div></div></div><
+2fb3: /div></div></div></div></div></div></section><section id="lt-cou
+2ff3: nter" class="sppb-section lt-counter" ><div class="sppb-row-over
+3033: lay"></div><div class="sppb-row-container"><div class="sppb-row"
+3073: ><div class="sppb-col-md-4" id="column-wrap-id-1541144505091"><d
+30b3: iv id="column-id-1541144505091" class="sppb-column sppb-wow fade
+30f3: InUpBig"  data-sppb-wow-duration="300ms"><div class="sppb-column
+3133: -addons"><div id="sppb-addon-wrapper-1541144505098" class="sppb-
+3173: addon-wrapper"><div id="sppb-addon-1541144505098" class="clearfi
+31b3: x "     ><div class="sppb-addon sppb-addon-text-block sppb-text-
+31f3: center lt-counter-item"><div class="sppb-addon-content"><h2 clas
+3233: s="count">3803</h2>.<h5>Students</h5></div></div></div></div></d
+3273: iv></div></div><div class="sppb-col-md-4" id="column-wrap-id-154
+32b3: 1144505092"><div id="column-id-1541144505092" class="sppb-column
+32f3:  sppb-wow rotateInDownLeft"  data-sppb-wow-duration="300ms"><div
+3333:  class="sppb-column-addons"><div id="sppb-addon-wrapper-15411445
+3373: 05105" class="sppb-addon-wrapper"><div id="sppb-addon-1541144505
+33b3: 105" class="clearfix "     ><div class="sppb-addon sppb-addon-te
+33f3: xt-block sppb-text-center lt-counter-item"><div class="sppb-addo
+3433: n-content"><h2 class="count">525</h2>.<h5>Staff</h5></div></div>
+3473: </div></div></div></div></div><div class="sppb-col-md-4" id="col
+34b3: umn-wrap-id-1541144505093"><div id="column-id-1541144505093" cla
+34f3: ss="sppb-column sppb-wow rotateInDownRight"  data-sppb-wow-durat
+3533: ion="300ms"><div class="sppb-column-addons"><div id="sppb-addon-
+3573: wrapper-1541144505114" class="sppb-addon-wrapper"><div id="sppb-
+35b3: addon-1541144505114" class="clearfix "     ><div class="sppb-add
+35f3: on sppb-addon-text-block sppb-text-center lt-counter-item"><div 
+3633: class="sppb-addon-content"><h2 class="count">3770</h2>.<h5>Alumn
+3673: i</h5></div></div></div></div></div></div></div></div></div></se
+36b3: ction><section id="section-id-1572844633151" class="sppb-section
+36f3: " ><div class="sppb-row-overlay"></div><div class="sppb-row-cont
+3733: ainer"><div class="sppb-row"><div class="sppb-col-md-12" id="col
+3773: umn-wrap-id-1572844633150"><div id="column-id-1572844633150" cla
+37b3: ss="sppb-column" ><div class="sppb-column-addons"><div id="sppb-
+37f3: addon-wrapper-1572844633154" class="sppb-addon-wrapper"><div id=
+3833: "sppb-addon-1
+21:50:08.640000 <= Recv data, 9600 bytes (0x2580)
+0000: 572844633154" class="clearfix "     ><div class="sppb-addon sppb
+0040: -addon-text-block sppb-text-center "><div class="sppb-addon-cont
+0080: ent"><span style="font-size: 24pt; color: #33312d;"><strong><a h
+00c0: ref="http://www.wiut.uz/research" target="_blank" rel="noopener 
+0100: noreferrer">RESEARCH</a></strong></span></div></div></div></div>
+0140: <div id="section-id-1581573542353" class="sppb-section" ><div cl
+0180: ass="sppb-container-inner"><div class="sppb-row"><div class="spp
+01c0: b-col-md-4" id="column-wrap-id-1581573542354"><div id="column-id
+0200: -1581573542354" class="sppb-column" ><div class="sppb-column-add
+0240: ons"><div id="sppb-addon-wrapper-1581573542328" class="sppb-addo
+0280: n-wrapper"><div id="sppb-addon-1581573542328" class="clearfix " 
+02c0:     ><div class="sppb-addon sppb-addon-text-block sppb-text-cent
+0300: er "><div class="sppb-addon-content"><div style="text-align: cen
+0340: ter;"><span style="font-size: 18pt;"><strong><a href="http://cpr
+0380: o.wiut.uz/" target="_blank" rel="noopener noreferrer">CPRO</a></
+03c0: strong></span></div></div></div></div></div><div id="sppb-addon-
+0400: wrapper-1572844633136" class="sppb-addon-wrapper"><div id="sppb-
+0440: addon-1572844633136" class="clearfix "     ><div class="sppb-add
+0480: on sppb-addon-single-image sppb-text-center "><div class="sppb-a
+04c0: ddon-content"><div class="sppb-addon-single-image-container"><a 
+0500: rel="noopener noreferrer" target="_blank" href="http://cpro.wiut
+0540: .uz/"><img class="sppb-img-responsive" src="/images/2020/02/13/c
+0580: pro_main_page.png" alt="Image" title=""></a></div></div></div></
+05c0: div></div></div></div></div><div class="sppb-col-md-4" id="colum
+0600: n-wrap-id-1581573542357"><div id="column-id-1581573542357" class
+0640: ="sppb-column" ><div class="sppb-column-addons"><div id="sppb-ad
+0680: don-wrapper-1581573542335" class="sppb-addon-wrapper"><div id="s
+06c0: ppb-addon-1581573542335" class="clearfix "     ><div class="sppb
+0700: -addon sppb-addon-text-block sppb-text-center "><div class="sppb
+0740: -addon-content"><div style="text-align: center;"><span style="fo
+0780: nt-size: 18pt;"><strong><a href="http://cpro.wiut.uz/" target="_
+07c0: blank" rel="noopener noreferrer">SILK ROAD</a></strong></span></
+0800: div></div></div></div></div><div id="sppb-addon-wrapper-15728446
+0840: 33139" class="sppb-addon-wrapper"><div id="sppb-addon-1572844633
+0880: 139" class="clearfix "     ><div class="sppb-addon sppb-addon-si
+08c0: ngle-image sppb-text-center "><div class="sppb-addon-content"><d
+0900: iv class="sppb-addon-single-image-container"><a rel="noopener no
+0940: referrer" target="_blank" href="https://silkroadjournal.online/"
+0980: ><img class="sppb-img-responsive" src="/images/2019/11/04/silk_r
+09c0: oad_3_1.jpg" alt="Image" title=""></a></div></div></div></div></
+0a00: div></div></div></div><div class="sppb-col-md-4" id="column-wrap
+0a40: -id-1581573542358"><div id="column-id-1581573542358" class="sppb
+0a80: -column" ><div class="sppb-column-addons"><div id="sppb-addon-wr
+0ac0: apper-1581573542340" class="sppb-addon-wrapper"><div id="sppb-ad
+0b00: don-1581573542340" class="clearfix "     ><div class="sppb-addon
+0b40:  sppb-addon-text-block sppb-text-center "><div class="sppb-addon
+0b80: -content"><div style="text-align: center;"><span style="font-siz
+0bc0: e: 18pt;"><strong><a href="http://science.wiut.uz/" target="_bla
+0c00: nk" rel="noopener noreferrer">SCIENTIFIC COUNCIL</a></strong></s
+0c40: pan></div></div></div></div></div><div id="sppb-addon-wrapper-15
+0c80: 81573542321" class="sppb-addon-wrapper"><div id="sppb-addon-1581
+0cc0: 573542321" class="clearfix "     ><div class="sppb-addon sppb-ad
+0d00: don-single-image sppb-text-center "><div class="sppb-addon-conte
+0d40: nt"><div class="sppb-addon-single-image-container"><a rel="noope
+0d80: ner noreferrer" target="_blank" href="http://science.wiut.uz/"><
+0dc0: img class="sppb-img-responsive" src="/images/2020/02/14/photo_20
+0e00: 20-02-14_09-18-06.jpg" alt="Image" title=""></a></div></div></di
+0e40: v></div></div></div></div></div></div></div></div></div></div></
+0e80: div></div></div></section><section id="lt-portfolio" class="sppb
+0ec0: -section lt-portfolio" ><div class="sppb-row-overlay"></div><div
+0f00:  class="sppb-row-container"><div class="sppb-row"><div class="sp
+0f40: pb-col-md-12" id="column-wrap-id-1539596239342"><div id="column-
+0f80: id-1539596239342" class="sppb-column sppb-wow fadeInUp"  data-sp
+0fc0: pb-wow-duration="300ms"><div class="sppb-column-addons"><div id=
+1000: "sppb-addon-wrapper-1541148376886" class="sppb-addon-wrapper"><d
+1040: iv id="sppb-addon-1541148376886" class="clearfix " 
+1075: 2000
+107b:     ><div class="sppb-addon sppb-addon-text-block sppb-text-cent
+10bb: er lt-title"><div class="sppb-addon-content"><p style="font-size
+10fb: : 32pt; font-family: arial; font-weight: bold; color: #14a6a1;">
+113b: <a href="http://www.wiut.uz/index.php/news">NEWS</a></p></div></
+117b: div></div></div><div id="sppb-addon-wrapper-1539596239341" class
+11bb: ="sppb-addon-wrapper"><div id="sppb-addon-1539596239341" class="
+11fb: clearfix "     ><div class="sppb-addon sppb-addon-module "><div 
+123b: class="sppb-addon-content">.<div id="k2ModuleBox133" class="k2It
+127b: emsBlock">.....  <ul>.        <li class="even">..      <!-- Plug
+12bb: ins: BeforeDisplay -->.      .      <!-- K2 Plugins: K2BeforeDis
+12fb: play -->.      .      .            <a class="moduleItemTitle" hr
+133b: ef="/news/item/91-guest-lecture-with-vr-expert">Guest lecture wi
+137b: th VR expert</a>.      .      .      <!-- Plugins: AfterDisplayT
+13bb: itle -->.      .      <!-- K2 Plugins: K2AfterDisplayTitle -->. 
+13fb:      .      <!-- Plugins: BeforeDisplayContent -->.      .      
+143b: <!-- K2 Plugins: K2BeforeDisplayContent -->.      .            <
+147b: div class="moduleItemIntrotext">..      .      <a class="moduleI
+14bb: temImage" href="/news/item/91-guest-lecture-with-vr-expert" titl
+14fb: e="Continue reading &quot;Guest lecture with VR expert&quot;">..
+153b:       .<img src="/media/k2/items/cache/737344dd8934cc52da9f7f85f
+157b: 2627abb_M.jpg" alt="Guest lecture with VR expert" />..      </a>
+15bb: ..      .      .      </div>.      .      .      <div class="clr
+15fb: "></div>..      .      <div class="clr"></div>..      <!-- Plugi
+163b: ns: AfterDisplayContent -->.      .      <!-- K2 Plugins: K2Afte
+167b: rDisplayContent -->.      .      .      .      .      ..........
+16bb: ...      <!-- Plugins: AfterDisplay -->.      .      <!-- K2 Plu
+16fb: gins: K2AfterDisplay -->.      .      <div class="clr"></div>.  
+173b:   </li>.        <li class="odd">..      <!-- Plugins: BeforeDisp
+177b: lay -->.      .      <!-- K2 Plugins: K2BeforeDisplay -->.      
+17bb: .      .            <a class="moduleItemTitle" href="/news/item/
+17fb: 90-free-international-trade">Free International Trade</a>.      
+183b: .      .      <!-- Plugins: AfterDisplayTitle -->.      .      <
+187b: !-- K2 Plugins: K2AfterDisplayTitle -->.      .      <!-- Plugin
+18bb: s: BeforeDisplayContent -->.      .      <!-- K2 Plugins: K2Befo
+18fb: reDisplayContent -->.      .            <div class="moduleItemIn
+193b: trotext">..      .      <a class="moduleItemImage" href="/news/i
+197b: tem/90-free-international-trade" title="Continue reading &quot;F
+19bb: ree International Trade&quot;">..      .<img src="/media/k2/item
+19fb: s/cache/3707d8f2be163bd14c78cf07586f13bb_M.jpg" alt="Free Intern
+1a3b: ational Trade" />..      </a>..      .      .      </div>.      
+1a7b: .      .      <div class="clr"></div>..      .      <div class="
+1abb: clr"></div>..      <!-- Plugins: AfterDisplayContent -->.      .
+1afb:       <!-- K2 Plugins: K2AfterDisplayContent -->.      .      . 
+1b3b:      .      .      .............      <!-- Plugins: AfterDisplay
+1b7b:  -->.      .      <!-- K2 Plugins: K2AfterDisplay -->.      .   
+1bbb:    <div class="clr"></div>.    </li>.        <li class="even">..
+1bfb:       <!-- Plugins: BeforeDisplay -->.      .      <!-- K2 Plugi
+1c3b: ns: K2BeforeDisplay -->.      .      .            <a class="modu
+1c7b: leItemTitle" href="/news/item/88-guest-lecture-on-european-union
+1cbb: -law">Guest lecture on European Union Law</a>.      .      .    
+1cfb:   <!-- Plugins: AfterDisplayTitle -->.      .      <!-- K2 Plugi
+1d3b: ns: K2AfterDisplayTitle -->.      .      <!-- Plugins: BeforeDis
+1d7b: playContent -->.      .      <!-- K2 Plugins: K2BeforeDisplayCon
+1dbb: tent -->.      .            <div class="moduleItemIntrotext">.. 
+1dfb:      .      <a class="moduleItemImage" href="/news/item/88-guest
+1e3b: -lecture-on-european-union-law" title="Continue reading &quot;Gu
+1e7b: est lecture on European Union Law&quot;">..      .<img src="/med
+1ebb: ia/k2/items/cache/398a8bc2e3f7f879ff0986359513be80_M.jpg" alt="G
+1efb: uest lecture on European Union Law" />..      </a>..      .     
+1f3b:  .      </div>.      .      .      <div class="clr"></div>..    
+1f7b:   .      <div class="clr"></div>..      <!-- Plugins: AfterDispl
+1fbb: ayContent -->.      .      <!-- K2 Plugins: K2AfterDisplayConten
+1ffb: t -->.      .      .      .      .      .............      <!-- 
+203b: Plugins: AfterDisplay -->.      .      <!-- K2 Plugins: K2AfterD
+207b: isplay -->.      .      <div class="clr"></div>.    </li>.      
+20bb:   <li class="odd">..      <!-- Plugins: BeforeDisplay -->.      
+20fb: .      <!-- K2 Plugins: K2BeforeDisplay -->.      .      .      
+213b:       <a class="moduleItemTitle" href="/news/item/87-research-di
+217b: gest-january-2020">Research Digest (January 2020)</a>.      .   
+21bb:    .      <!-- Plugins: AfterDisplayTitle -->.      .      <!-- 
+21fb: K2 Plugins: K2AfterDisplayTitle -->.      .      <!-- Plugins: B
+223b: eforeDisplayContent -->.      .      <!-- K2 Plugins: K2BeforeDi
+227b: splayContent -->.      .            <div class="moduleItemIntrot
+22bb: ext">..      .      <a class="moduleItemImage" href="/news/item/
+22fb: 87-research-digest-january-2020" title="Continue reading &quot;R
+233b: esearch Digest (January 2020)&quot;">..      .<img src="/media/k
+237b: 2/items/cache/0d0c19531d6e29f793ed165732978408_M.jpg" alt="Resea
+23bb: rch Digest (January 2020)" />..      </a>..      .      .      <
+23fb: /div>.      .      .      <div class="clr"></div>..      .      
+243b: <div class="clr"></div>..      <!-- Plugins: AfterDisplayContent
+247b:  -->.      .      <!-- K2 Plugins: K2AfterDisplayContent -->.   
+24bb:    .      .      .      .      .............      <!-- Plugins: 
+24fb: AfterDisplay -->.      .      <!-- K2 Plugins: K2AfterDisplay --
+253b: >.      .      <div class="clr"></div>.    </li>.        <li cla
+257b: ss="e
+21:50:08.640000 <= Recv data, 1200 bytes (0x4b0)
+0000: ven">..      <!-- Plugins: BeforeDisplay -->.      .      <!-- K
+0040: 2 Plugins: K2BeforeDisplay -->.      .      .            <a clas
+0080: s="moduleItemTitle" href="/news/item/85-introduction-to-cyber-se
+00c0: curity">Introduction to Cyber Security</a>.      .      .      <
+0100: !-- Plugins: AfterDisplayTitle -->.      .      <!-- K2 Plugins:
+0140:  K2AfterDisplayTitle -->.      .      <!-- Plugins: BeforeDispla
+0180: yContent -->.      .      <!-- K2 Plugins: K2BeforeDisplayConten
+01c0: t -->.      .            <div class="moduleItemIntrotext">..    
+0200:   .      <a class="moduleItemImage" href="/news/item/85-introduc
+0240: tion-to-cyber-security" title="Continue reading &quot;Introducti
+0280: on to Cyber Security&quot;">..      .<img src="/media/k2/items/c
+02c0: ache/2a14beb1aee2d71c6fecb12f25c690f7_M.jpg" alt="Introduction t
+0300: o Cyber Security" />..      </a>..      .      .      </div>.   
+0340:    .      .      <div class="clr"></div>..      .      <div clas
+0380: s="clr"></div>..      <!-- Plugins: AfterDisplayContent -->.    
+03c0:   .      <!-- K2 Plugins: K2AfterDisplayContent -->.      .     
+0400:  .      .      .      .............      <!-- Plugins: AfterDisp
+0440: lay -->.      .      <!-- K2 Plugins: K2AfterDisplay -->.      .
+0480:       <div class="clr"></div>.    </li>.        
+21:50:08.640000 <= Recv data, 4800 bytes (0x12c0)
+0000: <li class="odd lastItem">..      <!-- Plugins: BeforeDisplay -->
+0040: .      .      <!-- K2 Plugins: K2BeforeDisplay -->.      .      
+0080: .            <a class="moduleItemTitle" href="/news/item/83-admi
+00c0: ssion-2020-2021-is-open">Admission 2020-2021 is open!</a>.      
+0100: .      .      <!-- Plugins: AfterDisplayTitle -->.      .      <
+0140: !-- K2 Plugins: K2AfterDisplayTitle -->.      .      <!-- Plugin
+0180: s: BeforeDisplayContent -->.      .      <!-- K2 Plugins: K2Befo
+01c0: reDisplayContent -->.      .            <div class="moduleItemIn
+0200: trotext">..      .      <a class="moduleItemImage" href="/news/i
+0240: tem/83-admission-2020-2021-is-open" title="Continue reading &quo
+0280: t;Admission 2020-2021 is open!&quot;">..      .<img src="/media/
+02c0: k2/items/cache/1d73e13563b8be946c0f00bab252d7ea_M.jpg" alt="Admi
+0300: ssion 2020-2021 is open!" />..      </a>..      .      .      </
+0340: div>.      .      .      <div class="clr"></div>..      .      <
+0380: div class="clr"></div>..      <!-- Plugins: AfterDisplayContent 
+03c0: -->.      .      <!-- K2 Plugins: K2AfterDisplayContent -->.    
+0400:   .      .      .      .      .............      <!-- Plugins: A
+0440: fterDisplay -->.      .      <!-- K2 Plugins: K2AfterDisplay -->
+0480: .      .      <div class="clr"></div>.    </li>.        <li clas
+04c0: s="clearList"></li>.  </ul>.  .....</div>.</div></div></div></di
+0500: v></div></div></div></div></div></section><section id="section-i
+0540: d-1581509704693" class="sppb-section" ><div class="sppb-row-cont
+0580: ainer"><div class="sppb-row"><div class="sppb-col-md-12" id="col
+05c0: umn-wrap-id-1581509704692"><div id="column-id-1581509704692" cla
+0600: ss="sppb-column" ><div class="sppb-column-addons"><div id="sppb-
+0640: addon-wrapp
+064d: 1ff8
+0653: er-1581509704696" class="sppb-addon-wrapper"><div id="sppb-addon
+0693: -1581509704696" class="clearfix "     ><div class="sppb-addon sp
+06d3: pb-addon-animated-heading sppb-text-center"><h2 class="sppb-addo
+0713: n-title animated-heading-text text-clip is-full-width"><span cla
+0753: ss="animated-heading-before-part">CONTACT</span><span class="ani
+0793: mated-text-words-wrapper"><span class="animated-text is-visible"
+07d3: >US</span></span></h2></div></div></div></div></div></div></div>
+0813: </div></section><section id="section-id-1571116204612" class="sp
+0853: pb-section" ><div class="sppb-row-overlay"></div><div class="spp
+0893: b-row-container"><div class="sppb-row"><div class="sppb-col-md-4
+08d3: " id="column-wrap-id-1571116204611"><div id="column-id-157111620
+0913: 4611" class="sppb-column" ><div class="sppb-column-addons"><div 
+0953: id="sppb-addon-wrapper-1572413224233" class="sppb-addon-wrapper"
+0993: ><div id="sppb-addon-1572413224233" class="clearfix "     ><div 
+09d3: class="sppb-addon sppb-addon-text-block  "><div class="sppb-addo
+0a13: n-content"><div style="text-align: center; color: #33312d;"><spa
+0a53: n style="font-size: 12pt;">Working days &amp; hours:</span></div
+0a93: >.<div style="text-align: center; color: #33312d;"><span style="
+0ad3: font-size: 12pt;">From Monday to Friday</span></div>.<div style=
+0b13: "text-align: center; color: #33312d;"><span style="font-size: 12
+0b53: pt;">From 9:00 to 18:00 <br />(lunch time 13:00-14:00)</span></d
+0b93: iv></div></div></div></div></div></div></div><div class="sppb-co
+0bd3: l-md-4" id="column-wrap-id-1571120192662"><div id="column-id-157
+0c13: 1120192662" class="sppb-column" ><div class="sppb-column-addons"
+0c53: ><div id="sppb-addon-wrapper-1571120192665" class="sppb-addon-wr
+0c93: apper"><div id="sppb-addon-1571120192665" class="clearfix "     
+0cd3: ><div class="sppb-addon sppb-addon-text-block  "><div class="spp
+0d13: b-addon-content"><div style="text-align: center; color: #33312d;
+0d53: "><span style="font-size: 12pt;">Telephones:</span></div>.<div s
+0d93: tyle="text-align: center; color: #33312d;"><span style="font-siz
+0dd3: e: 12pt;">Call center - (+998 71) 238 74 00&nbsp;</span><br /><s
+0e13: pan style="font-size: 12pt;">Call center&nbsp;- (+998 71) 238 74
+0e53:  44&nbsp;</span><br /><span style="font-size: 12pt;">Enquiries o
+0e93: n Masters programmes - (+998 71) 238 74 45&nbsp;</span></div>.<d
+0ed3: iv style="text-align: center; color: #33312d;"><span style="font
+0f13: -size: 12pt;">&nbsp;</span></div></div></div></div></div></div><
+0f53: /div></div><div class="sppb-col-md-4" id="column-wrap-id-1572413
+0f93: 224230"><div id="column-id-1572413224230" class="sppb-column" ><
+0fd3: div class="sppb-column-addons"><div id="sppb-addon-wrapper-15724
+1013: 13224236" class="sppb-addon-wrapper"><div id="sppb-addon-1572413
+1053: 224236" class="clearfix "     ><div class="sppb-addon sppb-addon
+1093: -text-block  "><div class="sppb-addon-content"><div style="text-
+10d3: align: center; color: #33312d;"><span style="font-size: 12pt;">E
+1113: -mail:</span></div>.<div style="text-align: center; color: #3331
+1153: 2d;"><span style="font-size: 12pt;">Enquiry office:&nbsp;<span i
+1193: d="cloak6f6203595ddeb415981867dfffd6fe3d">info@wiut.uz</span></s
+11d3: pan></div></div></div></div></div></div></div></div></div></div>
+1213: </section><section id="section-id-1572413224229" class="sppb-sec
+1253: tion" ><div class="sppb-row-overlay"></div><div class="sppb-row-
+1293: container"><div class="sppb-row"><div class="
+21:50:08.640000 <= Recv data, 1200 bytes (0x4b0)
+0000: sppb-col-md-12" id="column-wrap-id-1572413224228"><div id="colum
+0040: n-id-1572413224228" class="sppb-column" ><div class="sppb-column
+0080: -addons"><div id="sppb-addon-wrapper-1571116204615" class="sppb-
+00c0: addon-wrapper"><div id="sppb-addon-1571116204615" class="clearfi
+0100: x "     ><div class="sppb-addon sppb-addon-text-block  "><div cl
+0140: ass="sppb-addon-content"><div style="width: 100%; text-align: le
+0180: ft;"><iframe src="https://maps.google.com/maps?width=100%&amp;he
+01c0: ight=280&amp;hl=en&amp;q=Westminster%20International%20Universit
+0200: y%20in%20Tashkent%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%98%D
+0240: 1%81%D1%82%D0%B8%D0%BA%D0%B1%D0%BE%D0%BB%2C%20%D0%A2%D0%B0%D1%88
+0280: %D0%BA%D0%B5%D0%BD%D1%82+(Westminster%20International%20Universi
+02c0: ty%20in%20Tashkent)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;
+0300: output=embed" width="100%" height="280" frameborder="0" marginwi
+0340: dth="0" marginheight="0" scrolling="no"><a href="https://www.map
+0380: s.ie/coordinates.html">find my location</a></iframe></div></div>
+03c0: </div></div></div></div></div></div></div></div></section>...</d
+0400: iv>.</div>.</div></main></div></section><section id="sp-bottom">
+0440: <div class="container"><div class="container-inner"><div class="
+0480: row"><div id="sp-bottom2" class="col-sm-col-sm-6
+21:50:08.640000 <= Recv data, 1200 bytes (0x4b0)
+0000:  col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 
+0040: class="sp-module-title">Main</h3><div class="sp-module-content">
+0080: ..<div class="custom"  >..<p><strong><span style="font-family: a
+00c0: rial, helvetica, sans-serif;"><a class="links" href="http://www.
+0100: wiut.uz/new-alumni">Alumni</a></span></strong></p>
+0134: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+0174: ly: arial, helvetica, sans-serif;"><a class="links" href="http:/
+01b4: /intranet.wiut.uz/" target="_blank" rel="noopener noreferrer">In
+01f4: tranet</a></span></strong></span></p>
+021b: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+025b: ly: arial, helvetica, sans-serif;"><a class="links" href="https:
+029b: //mail.wiut.uz/owa/" target="_blank" rel="noopener noreferrer">W
+02db: eb Mail</a></span></strong></span></p>
+0303: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+0343: ly: arial, helvetica, sans-serif;"><a class="links" href="https:
+0383: //www.google.com/maps/@41.3070837,69.2835128,3a,75y,100.3h,110.1
+03c3: 5t/data=!3m6!1e1!3m4!1sAF1QipNTmIOM4CbfWuSb_Jy-gpJ2bH85WhefRdYy0
+0403: sN_!2e10!7i13548!8i6774" target="_blank" rel="noopener noreferre
+0443: r">Virtual Tour</a></span></strong></span></p>
+0473: <p><span style="font-size: 10pt;"><strong><span style="font-f
+21:50:08.640000 <= Recv data, 1200 bytes (0x4b0)
+0000: amily: arial, helvetica, sans-serif;"><a class="links" href="htt
+0040: p://www.wiut.uz/faq-wiut">FAQ</a></span></strong></span></p></di
+0080: v>.</div></div></div></div><div id="sp-bottom1" class="col-sm-co
+00c0: l-sm-6 col-lg-3 "><div class="sp-column "><div class="sp-module 
+0100: "><h3 class="sp-module-title">Quick Links</h3><div class="sp-mod
+0140: ule-content">..<div class="custom"  >..<p><span style="font-size
+0180: : 10pt; font-family: arial, helvetica, sans-serif;"><strong><a c
+01c0: lass="links" href="http://www.wiut.uz/about-us">About Us</a></st
+0200: rong></span></p>
+0212: <p><span style="font-size: 10pt; font-family: arial, helvetica, 
+0252: sans-serif;"><strong><a class="links" href="http://www.wiut.uz/c
+0292: areers">Career</a></strong></span></p>
+02ba: <p><span style="font-size: 10pt; font-family: arial, helvetica, 
+02fa: sans-serif;"><strong><a class="links" href="http://www.wiut.uz/r
+033a: esearch">Research</a></strong></span></p>
+0365: <p><span style="font-size: 10pt; font-family: arial, helvetica, 
+03a5: sans-serif;"><strong><a class="links" href="http://www.wiut.uz/p
+03e5: arents">Parents</a></strong></span></p>
+040e: <p><span style="font-size: 10pt; font-family: arial, helvetica, 
+044e: sans-serif;"><strong><a class="links" href="http://www.wiut.uz/n
+048e: ews">News</a></strong></span></p>.
+21:50:08.640000 <= Recv data, 5658 bytes (0x161a)
+0000: .<p>..</p></div>.</div></div></div></div><div id="sp-bottom3" cl
+0040: ass="col-lg-3 "><div class="sp-column "><div class="sp-module ">
+0080: <h3 class="sp-module-title">Courses</h3><div class="sp-module-co
+00c0: ntent">..<div class="custom"  >..<p><span style="font-size: 10pt
+0100: ;"><strong><span style="font-family: arial, helvetica, sans-seri
+0140: f;"><a class="links" href="http://www.wiut.uz/pre-foundation">Pr
+0180: e-Foundation</a></span></strong></span></p>
+01ad: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+01ed: ly: arial, helvetica, sans-serif;"><a class="links" href="http:/
+022d: /www.wiut.uz/foundation">Foundation Studies</a></span></strong><
+026d: /span></p>
+0279: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+02b9: ly: arial, helvetica, sans-serif;"><a class="links" href="http:/
+02f9: /www.wiut.uz/undergraduate">Undergraduate</a></span></strong></s
+0339: pan></p>
+0343: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+0383: ly: arial, helvetica, sans-serif;"><a class="links" href="http:/
+03c3: /www.wiut.uz/postgraduate">Postgraduate</a></span></strong></spa
+0403: n></p>
+040b: <p><span style="font-size: 10pt;"><strong><span style="font-fami
+044b: ly: arial, helvetica, sans-serif;"><a class="links" href="http:/
+048b: /profcourses.wiut.uz/ru/" target="blank">Executive Courses</a></
+04cb: span></strong></span></p></div>.</div></div></div></div><div id=
+050b: "sp-bottom4" class="col-lg-3 "><div class="sp-column "><div clas
+054b: s="sp-module "><h3 class="sp-module-title">Follo
+057d: 1000
+0583: w Us</h3><div class="sp-module-content">..<div class="custom"  >
+05c3: ..<div class="column" style="float: left; padding: 5px; margin-t
+0603: op: 20px;"><a href="https://www.facebook.com/wiut.uz/" target="_
+0643: blank" rel="noopener noreferrer"><img src="/images/facebook_circ
+0683: le-512.png" alt="WIUT Facebook" width="30" height="30" /></a></d
+06c3: iv>
+06c8: <div class="column" style="float: left; padding: 5px; margin-top
+0708: : 20px;"><a href="https://www.instagram.com/wiutuni/" target="_b
+0748: lank" rel="noopener noreferrer"><img src="/images/instagram-roun
+0788: d-flat-512.png" alt="WIUT Instagram" width="30" height="30" /></
+07c8: a></div>
+07d2: <div class="column" style="float: left; padding: 5px; margin-top
+0812: : 20px;"><a href="https://www.linkedin.com/school/westminster-in
+0852: ternational-university-in-tashkent/" target="_blank" rel="noopen
+0892: er noreferrer"><img src="/images/linkedin_circle-512.png" alt="W
+08d2: IUT LinkedIn" width="30" height="30" /></a></div>
+0905: <div class="column" style="float: left; padding: 5px; margin-top
+0945: : 20px;"><a href="https://www.youtube.com/channel/UCePtwIMsg6nzt
+0985: jWHWOEsASQ?view_as=subscriber" target="_blank" rel="noopener nor
+09c5: eferrer"><img src="/images/youtube-512.png" alt="WIUT YouTube" w
+0a05: idth="30" height="30" /></a></div>
+0a29: <div class="column" style="float: left; padding: 5px; margin-top
+0a69: : 20px;"><a href="https://twitter.com/WestminsterEdu" target="_b
+0aa9: lank" rel="noopener noreferrer"><img src="/images/twitter-round-
+0ae9: logo-png-transparent-background-7-653x653.png" alt="WIUT YouTube
+0b29: " width="30" height="30" /></a></div>
+0b50: <p style="margin-top: -20px;">..</p></div>.</div></div></div></d
+0b90: iv></div></div></div></section><footer id="sp-footer"><div class
+0bd0: ="container"><div class="container-inner"><div class="row"><div 
+0c10: id="sp-footer1" class="col-lg-6 "><div class="sp-column "><span 
+0c50: class="sp-copyright">.. 2019 Westminster International Universit
+0c90: y in Tashkent.</span></div></div><div id="sp-footer2" class="col
+0cd0: -lg-6 "><div class="sp-column "><div class="sp-module "><div cla
+0d10: ss="sp-module-content">..<div class="custom"  >..<p><a href="htt
+0d50: ps://www.westminster.ac.uk/" target="blank"><img style="float: r
+0d90: ight; margin-bottom: 25px;" src="/images/UoW-logo1_copy_1_1.png"
+0dd0:  alt="" width="79" height="19" /></a>Strategic WIUT partner -.. 
+0e10: ..</p></div>.</div></div><div class="sp-module "><div class="sp-
+0e50: module-content">..<div class="custom"  >..</div>.</div></div></d
+0e90: iv></div></div></div></div></footer>        </div>.    </div>.. 
+0ed0:    <!-- Off Canvas Menu -->.    <div class="offcanvas-overlay"><
+0f10: /div>.    <div class="offcanvas-menu">.        <a href="#" class
+0f50: ="close-offcanvas"><span class="fa fa-remove"></span></a>.      
+0f90:   <div class="offcanvas-inner">.                            <div
+0fd0:  class="sp-module "><div class="sp-module-content"><ul class="me
+1010: nu">.<li class="item-101 default current active"><a href="/" >Ho
+1050: me</a></li><li class="item-239"><a href="/study" >Study</a></li>
+1090: <li class="item-270"><a href="/admission-wiut" >Apply</a></li><l
+10d0: i class="item-125"><a href="/international" >International</a></
+1110: li><li class="item-227"><a href="/research" >Research</a></li><l
+1150: i class="item-216"><a href="/news" >News</a></li><li class="item
+1190: -240"><a href="/events" >Events</a></li><li class="item-210"><a 
+11d0: href="/parents" >Parents</a></li><li class="item-220"><a href="/
+1210: careers" >Careers</a></li><li class="item-237"><a href="/about-u
+1250: s" >About Us</a></li></ul>.</div></div>.                    </di
+1290: v>.    </div>..    .    .    .    <!-- Go to top -->.           
+12d0:  <a href="#" class="sp-scroll-up" aria-label="Scroll Up"><span c
+1310: lass="fa fa-chevron-up" aria-hidden="true"></span></a>.    .... 
+1350:    <!-- Global site tag (gtag.js) - Google Analytics -->.    <sc
+1390: ript async src="https://www.googletagmanager.com/gtag/js?id=UA-1
+13d0: 54750389-1"></script>.    <script>.      window.dataLayer = wind
+1410: ow.dataLayer || [];.      function gtag(){dataLayer.push(argumen
+1450: ts);}.      gtag('js', new Date());..      gtag('config', 'UA-15
+1490: 4750389-1');.    </script>.    .    <div id="sp-cookie-consent" 
+14d0: class="position-bottom_left"><div><div class="sp-cookie-consent-
+1510: content">As a part of GDPR policy, we use cookies to ensure that
+1550:  we give you the best experience on our website.</d
+1585: 8a
+1589: iv><div class="sp-cookie-consent-action"><a class="sp-cookie-clo
+15c9: se sp-cookie-allow" href="#">I accept</a></div></div></div></bod
+1609: y>.</html>
+1615: 0
+1618: 
+21:50:08.640000 == Info: Closing connection 0
